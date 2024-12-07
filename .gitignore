@@ -32,6 +32,3 @@ dist-ssr/
 *.sln
 *.sw?
 
-# Docker related files (if you prefer not to push)
-docker-compose.yml
-Dockerfile
