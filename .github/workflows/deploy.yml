@@ -22,5 +22,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
+          context: .  # Usa el contexto del repositorio actual
+          file: ./Dockerfile  # Asegúrate de que la ruta sea correcta, si el Dockerfile está en la raíz
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/graphql-image:latest
