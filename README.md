@@ -18,7 +18,7 @@ This project is a simple GraphQL API built using Node.js and Docker. You can run
    docker run -d -p 4000:4000 --name graphql-api-container graphql-api
 3. **Access the API**
    Open your browser or Postman and visit:
-   - **GraphQL Playground**: [http://localhost:4000/graphql](http://localhost:4000/graphql)
+   - **GraphQL Playground**: [http://localhost:4000/graphql](http://localhost:4000/)
 
 
 ## API Methods
